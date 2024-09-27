@@ -32,9 +32,7 @@
 }
 
 .footer__list-item {
-  display: flex;
   margin-bottom: 16px;
-  align-items: center;
 }
 
 .footer__list-item:last-child {
@@ -48,8 +46,12 @@
 }
 
 .footer__social-link {
+  display: flex;
+  align-items: center;
   opacity: 1;
   transition-property: opacity;
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer__social-link:hover {
